@@ -1,6 +1,8 @@
 # Lidar Trees
-Step 0: Install dependencies using environment.yml
-Step 0.5: Run installpack.R once if you get an error about BiocManager
-Step 1: Run process_tile.R
-Step 2: Run ex_feat_all.py
-Step 3: Use generated files for classifier.ipynb, sun_exp.ipynb, clustering etc.
+
+## Quick Start
+1. Create the conda env: `conda env create -f environment.yaml` (or `environment.yml` if that’s the file name).
+2. If R complains about BiocManager, run once: `Rscript installpack.R`.
+3. Process a tile: `Rscript process_tile.R`.
+4. Extract features: `python ex_feat_all.py`.
+5. Use the generated outputs in downstream notebooks (`classifier.ipynb`, `sun_exp.ipynb`, `clustering`, etc.).

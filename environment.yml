@@ -1,0 +1,32 @@
+name: aitrees
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - seaborn
+  - folium
+  - owslib
+  - mercantile
+  - conda-forge::pyproj
+  - geopandas
+  - contextily
+  - hdbscan
+  - imbalanced-learn
+  - shap==0.48.0
+  - lightgbm
+  - rasterio
+  - laspy
+  - xgboost
+  - optuna
+  - open3d
+  - rasterstats
+  - umap-learn
+  - pyarrow
+prefix: /Users/rommetevelde/miniforge3/envs/aitrees
